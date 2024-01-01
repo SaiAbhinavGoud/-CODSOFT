@@ -1,0 +1,630 @@
+body{
+    background-color: #010425;
+    
+}
+.navbar{
+    background: #088F8F;
+  }
+  
+    .btn{
+      background: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: white;
+      width: 40px;
+      height: 38px;
+      
+      border-style: none;
+      
+      margin-left: none;
+  }
+  .bx{
+      color: black;
+  }
+  .user{
+      background: #088F8F;
+      border-style: none;
+      border-color: #088F8F;
+  }
+  .dropdown{
+      display: block;
+      float: right;
+      padding-left: 20px;
+      width: 5px;
+  }
+  .dropdown-menu{
+      background-color: #088F8F;
+  }
+  .back{
+    background: #088F8F;
+    border-style: none;
+  }
+  .back .bx{
+    font-size: 25px;
+    color: white;
+  }
+  .dropdown-menu a{
+    color: white;
+  }
+  .dropdown-menu li{
+      list-style: none;
+      padding: 0 20px;
+      position: relative;
+  color: white;
+  }
+  .dropdown-menu li a{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      font-family: sans-serif;
+      transition: 0.3s ease;
+  }
+.searchinput{
+    width: 20rem;
+  }
+.mom{
+  float: right;
+
+padding-right: 10px;
+
+}
+
+
+.titles{
+  display: inline-flex;
+        
+        column-gap: 1.5rem;
+        list-style: none;
+
+}
+.titles li{
+  padding-top: 5px;
+}
+.nav-links{
+  color: white;
+  padding: 3px 3px;
+}
+
+
+.white{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 74%;
+    height: 550px;
+    left: 13%;
+    top: 130px;
+
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+.head h1{
+    position: absolute;
+    width: 50%;
+    height: 63px;
+    left: 16%;
+    top: 160px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 45px;
+
+    color: #000000;
+}
+.head p{
+    position: absolute;
+width: 67%;
+height: 112px;
+left: 16%;
+top: 220px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+
+}
+.pass label{
+    position: absolute;
+width: 22%;
+height: 27px;
+left: 16%;
+top: 340px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+.pass input[type=text]{
+    box-sizing: border-box;
+
+position: absolute;
+width: 33%;
+height: 42px;
+left: 16%;
+top: 400px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 5px;
+}
+.passs label{
+    position: absolute;
+width: 22%;
+height: 27px;
+left: 16%;
+top: 460px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+.passs input[type=text]{
+    box-sizing: border-box;
+
+position: absolute;
+width: 33%;
+height: 42px;
+left: 16%;
+top: 520px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 5px;
+}
+
+.but{
+    position: absolute;
+width: 313px;
+height: 55px;
+left: 38%;
+top: 600px;
+
+background:  #088F8F;
+border: 1px solid  white;
+border-radius: 10px;
+}
+.but button{
+    position: absolute;
+width: 219px;
+height: 21px;
+left: 17%;
+top: 0px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+
+color:  white;
+border: none;
+background-color:  #088F8F;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background: #088F8F;
+    margin-top: 700px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  ul{
+    list-style: none;
+  }
+  .row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-col{
+    width: 30%;
+    padding: 15px 20px;
+  }
+  .footer-col a{
+    color: white;
+  }
+  
+  .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+    margin-top: 20px;
+    padding-left: 10px;
+  }.social .bx{
+    font-size: 1.3rem;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: blue;
+    background:white;
+  }
+  .social .bx:hover{
+    background: #088F8F;
+    transition: 0.3s all linear;
+  
+  }
+  .connect{
+    color: white;
+    font-size: 20px;
+  }
+  .foo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .about{
+    padding: 6px 0;
+  }
+  .pri{
+    padding: 6px 0;
+  }
+  .home{
+    padding-top: 10px;
+  }
+  .space{
+    padding-top: 18px;
+  }
+  
+@media (max-width:700px) {
+    .top-nav{
+        position: absolute;
+        width: 100%;
+        height: 55px;
+        left: 0px;
+        top: 0px;
+        background: #99582A;
+    }
+    .search-bar input[type=text]{
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        width: 35%;
+        height: 29px;
+        left: 32%;
+        
+        top: 11px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    .search-img{
+        position: absolute;
+        left: 60%;
+        top: 15px;
+        border-radius: 5px;
+    
+    }
+    .search-img button{
+        background-color: white;
+        border: none;
+    
+    }
+    .user-img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 88%;
+        top: 15px;
+        right: 0%;
+    
+    }
+    .user-img button{
+        background-color: #99582A;
+        border: none;
+    }
+    .user-img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 70%;
+        top: 15px;
+    }
+    .user-img button{
+        background-color: #99582A;
+        border: none;
+        display: block;
+            transition: .3s;
+            cursor: pointer;
+    }
+    .user-img div {
+        background-color: #99582a;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 222;
+        left: 7%;
+        visibility: hidden;
+        position: absolute;
+        min-width: 100%;
+        opacity: 0;
+        transition: .3s; 
+    }
+    .user-img:hover div {
+        visibility: visible;
+        opacity: 1;
+    }
+    .user-img div a {
+        display: block;
+        text-decoration: none;
+        padding: 8px;
+        color: #FFE6A7;
+        transition: .1s;
+        white-space: nowrap;
+    }
+    .user-img div a:hover {
+        background-color: #FFE6A7;
+        color: #99582a;
+    }
+    .user-img{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;   
+    }
+    .aside-nav{
+        display: none;
+    }
+
+    
+    .white{
+        box-sizing: border-box;
+    
+    position: absolute;
+    width: 74%;
+    height: 600px;
+    left: 13%;
+    top: 130px;
+    
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    }
+    .head h1{
+        position: absolute;
+        width: 50%;
+        height: 63px;
+        left: 16%;
+        top: 120px;
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 45px;
+    
+        color: #000000;
+    }
+    .pass label{
+        position: absolute;
+    width: 60%;
+    height: 27px;
+    left: 16%;
+    top: 390px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+    }
+    .pass input[type=text]{
+        box-sizing: border-box;
+    
+    position: absolute;
+    width: 67%;
+    height: 42px;
+    left: 16%;
+    top: 420px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    }
+    .passs label{
+        position: absolute;
+    width: 60%;
+    height: 27px;
+    left: 16%;
+    top: 490px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+    }
+    .passs input[type=text]{
+        box-sizing: border-box;
+    
+    position: absolute;
+    width: 67%;
+    height: 42px;
+    left: 16%;
+    top: 520px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    }
+
+
+    .but{
+        position: absolute;
+    width: 250px;
+    height: 100px;
+    left: 19%;
+    top: 620px;
+    
+    background: #088F8F;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    }
+    .but button{
+        position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0%;
+    top: 0px;
+    border-radius: 10px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #000000;
+    border: none;
+    background-color: #088F8F;
+    
+    
+    }
+
+
+
+    .chinna-footer{
+        position: absolute;
+        width: 100%;
+        height: 78px;
+        left: 0%;
+        top: 820px;
+    
+        background: #99582A;
+    }
+    .butt{
+        position: absolute;
+        width: 150px;
+        height: 48px;
+        left: 33%;
+        top: 0px;
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.015em;
+        color: #FFFFFF;
+        background-color: #99582A;
+        border: none;
+    
+    }
+    
+    
+    .main-footer{
+        position: absolute;
+        width: 100%;
+        height: 271px;
+        left: 0%;
+        top: 890px;
+        background: #99582A;
+    }
+    
+    
+    .final-text h1{
+        position: absolute;
+        width: 150px;
+        height: 37px;
+        left: 34%;
+        top: 0px;
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.015em;
+    
+        color: #FFFFFF;
+    
+    }
+    .twitter{
+        position: absolute; 
+        width: 63px; 
+        height: 63px;
+        left: 20%;
+        top: 100px;
+        border-radius: 149px;
+    }
+    .facebook{
+        position: absolute;
+        width: 63px;
+        height: 63px;
+        left: 45%;
+        top: 100px;
+        
+        
+        border-radius: 225px;
+    }
+    .instagram{
+        
+        position: absolute;
+        width: 63px;
+        height: 63px;
+        left: 70%;
+        top: 100px;
+    
+         
+        border-radius: 50%;
+    }
+    .copy-right {
+        position: absolute;
+        width: 292px;
+        height: 25px;
+        left: 17.5%;
+        top: 190px;
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        /* or 160% */
+    
+        text-align: center;
+        letter-spacing: -0.015em;
+    
+        color: #FFFFFF;
+    
+    }
+}

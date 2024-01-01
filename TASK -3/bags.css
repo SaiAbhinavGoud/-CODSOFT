@@ -1,0 +1,200 @@
+.navbar{
+    background: #088F8F;
+  }
+  
+    .btn{
+      background: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: white;
+      width: 40px;
+      height: 38px;
+      
+      border-style: none;
+      
+      margin-left: none;
+  }
+  .bx{
+      color: black;
+  }
+  .user{
+      background: #088F8F;
+      border-style: none;
+      border-color: #088F8F;
+  }
+  .dropdown{
+      display: block;
+      float: right;
+      padding-left: 20px;
+      width: 5px;
+  }
+  .dropdown-menu{
+      background-color: #088F8F;
+  }
+  .back{
+    background: #088F8F;
+    border-style: none;
+  }
+  .back .bx{
+    font-size: 25px;
+    color: white;
+  }
+  .dropdown-menu a{
+    color: white;
+  }
+  .dropdown-menu li{
+      list-style: none;
+      padding: 0 20px;
+      position: relative;
+  color: white;
+  }
+  .dropdown-menu li a{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      font-family: sans-serif;
+      transition: 0.3s ease;
+  }
+.products{
+    background: #010425;
+}
+h1{
+    color: white;
+    padding: 10px 0px;
+    padding-bottom: 35px;
+}
+.head .bx{
+    font-size: 40px;
+    color: white;
+}
+
+.col{
+    height: 319px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.rou{
+    position: relative;
+    height: 260px;
+    width: 100%;
+    border-radius: 0.8rem;
+
+}
+.fu{
+    background: #088F8F;
+    border-style: none;
+}
+.fu .bx{
+    font-size: 30px;
+    color: white;
+}
+.footer{
+    background: #088F8F;
+}
+ul{
+    list-style: none;
+  }
+  .row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-col{
+    width: 30%;
+    padding: 15px 20px;
+  }
+  .footer-col a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+    margin-top: 20px;
+    padding-left: 10px;
+  }.social .bx{
+    font-size: 1.3rem;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: blue;
+    background:white;
+  }
+  .social .bx:hover{
+    background: #088F8F;
+    transition: 0.3s all linear;
+  
+  }
+  .connect{
+    color: white;
+    font-size: 20px;
+  }
+  .foo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about{
+    padding: 6px 0;
+  }
+  .pri{
+    padding: 6px 0;
+  }
+  .home{
+    padding-top: 10px;
+  }
+  .space{
+    padding-top: 18px;
+  }
+  
+
+
+
+
+
+  .mom{
+    float: right;
+  
+  padding-right: 10px;
+  
+  }
+  
+  
+  .titles{
+    display: inline-flex;
+          
+          column-gap: 1.5rem;
+          list-style: none;
+  
+  }
+  .titles :hover{
+    color: #010425;
+  }
+  .titles li{
+    padding-top: 5px;
+  }
+  .nav-links{
+    color: white;
+    padding: 3px 3px;
+    text-decoration: none;
+  }
+  .searchinput{
+    width: 20rem;
+  }
+.cent{
+    color: white;
+    padding-top: 5px;
+}
+.copyright{
+    color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
