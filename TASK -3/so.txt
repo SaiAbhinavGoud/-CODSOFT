@@ -1,0 +1,184 @@
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 130px;
+    background: rgb(230, 174, 126);
+    border-radius: 0.4rem;
+
+
+
+
+
+<section class="blocks">
+                <div class="tshirt">
+                    
+                    <img class="shirtimg" src="tshirt.jpeg" alt="">
+                    
+                </div>
+                <div class="mug">
+                    
+                    <img class="cupimg" src="cu.jpeg" alt="">
+                    
+                </div>
+                <div class="art">
+                    
+                    <img class="artimg" src="art.jpeg" alt="">
+                    
+                </div>
+                <div class="earring">
+                    
+                    <img class="earimg" src="earring.jpeg" alt="">
+                    
+                </div>
+                <div class="ring">
+                    
+                    <img class="ringimg" src="ring.jpeg" alt="">
+                    
+                </div>
+                <div class="bag">
+                    
+                    <img class="bagimg" src="bag.jpeg" alt="">
+                    
+                </div>
+                <div class="arrow">
+                    <i class='bx bx-right-arrow-alt'></i>
+                </div>
+                
+            </section>
+    </body>
+
+
+.blocks{
+    background: rgb(149, 244, 244);
+}
+.tshirt{
+    display: inline-flex;
+    margin-left: 30px;
+    height: 160px;
+    width: 160px;
+    background: white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    
+    
+}
+.shirtimg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    width: 70%;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.mug{
+    display: inline-flex;
+
+    height: 160px;
+    width: 160px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+
+.art{
+    display: inline-flex;
+
+    height: 160px;
+    width: 160px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.earring{
+    display: inline-flex;
+
+    height: 160px;
+    width: 160px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.cupimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 160px;
+    border-radius: 50%;
+}
+.artimg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+    width: 160px;
+    border-radius: 50%;
+}
+.earimg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 160px;
+    border-radius: 50%;
+}
+.ring{
+    display: inline-flex;
+
+    height: 160px;
+    width: 160px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.bag{
+    display: inline-flex;
+
+    height: 160px;
+    width: 160px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.ringimg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 160px;
+    border-radius: 50%;
+}
+.bagimg{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 160px;
+    border-radius: 50%;
+}
+.arrow .bx{
+    float: right;
+
+}
+
+
+
+
+rgba(255,255,255,1);
+
+
+
+
+
+
+
+
+
+
